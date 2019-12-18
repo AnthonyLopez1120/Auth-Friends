@@ -17,7 +17,7 @@ function AddFriend(props){
 
     return(
         <div className = "add-friend-div">
-            <div className = "header">
+            <div className = "header-div">
                 <h4>Add Friend</h4>
             </div>
             <div className = "add-form" onSubmit = {handleSubmit}>

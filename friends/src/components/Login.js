@@ -26,11 +26,11 @@ export default function Login(props) {
     }
     
     return (
-        <div className = "login_div">
+        <div className = "login-div">
             <form className = "form-div" onSubmit={handleSubmit}>
                 <input type="text" name="username" placeholder="Username" onChange={handleChange} value={credentials.username}/>
                 <input type="password" name="password" placeholder="Password" onChange={handleChange} value={credentials.password}/>
-                <button type="submit">Log In</button>
+                <button className = "login-btn-form" type="submit">Log In</button>
             </form>       
 
         </div>

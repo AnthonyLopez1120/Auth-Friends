@@ -1,6 +1,4 @@
 import { axiosWithAuth } from "../utils/axiosWithAuth"
-
-
 export const FETCH_FRIENDS_START = "FETCH_FREINDS_START"
 export const FETCH_FREINDS_SUCCESS = "FETCH_FREINDS_SUCCESS"
 export const FETCH_FREINDS_FAILURE = "FETCH_FREINDS_FAILURE"
@@ -13,9 +11,9 @@ export const getFriends = () => dispatch => {
 
     axiosWithAuth()
     .get("/api/friends")
-    .then(res=>{
+    .then(res => {
         console.log(res)
-        dispatch({ type: FETCH_FREINDS_SUCCESS })
+        dispatch({ type: FETCH_FREINDS_SUCCESS, payload: res.data })
 
     })
     .catch(error => {
