@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header-div{
+  display: flex;
+  justify-content: space-between;
+  color:white;
+  background: #000;
+  box-shadow: #000 3px 3px 3px 3px;
+}
+
+h4{
+  text-align: center;
+}
+
+.nav-div{
+  align-self: flex-end;
+  margin: 20px;
+}
+
+button{
+  background: #292929;
+  color: white;
+  font-size: 1rem;
+  width: 100px;
+  margin: 0 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.login-btn{
+  background: blueviolet;
+}
+
+.login-div{
+  background: black;
+  color: white;
+  width: 30%;
+  max-width: 300px;
+  margin: 15% 0 0 35%;
+  padding: 20px 50px;
+  border: 2px solid blueviolet;
+  border-radius: 5px;
+}
+
+.form-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+  margin: 5px auto;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.login-btn-form{
+  background: blueviolet;
+  color: white;
+  width: 100px;
+  margin: 20px auto 0;
+  padding: 5px;
+  border-radius: 5px;
+
+}
+
+.friends-list-div{
+  background: black;
+  color: white;
+  width: 60%;
+  max-width: 800px;
+  margin: 5% auto;
+  padding: 20px 50px;
+  border: 2px solid blueviolet;
+  border-radius: 5px;
+}
+
+.friend-div{
+  border-bottom: 1px dotted blueviolet;
+  text-align: center;
+}
+
+.add-friend-div{
+  background: black;
+  color: white;
+  width: 50%;
+  max-width: 300px;
+  margin: 5% auto;
+  padding: 20px 50px;
+  border: 2px solid blueviolet;
+  border-radius: 5px;
+}
+
+.add-form{
+  display: flex;
+  flex-direction: column;
+}
+
